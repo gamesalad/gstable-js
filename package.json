@@ -1,0 +1,17 @@
+{
+  "name": "gstable-js",
+  "version": "0.1.0",
+  "description": "Utility class that makes it easier to work with GameSalad's JSON table representation used in it's network behaviors.",
+  "main": "gstable.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gamesalad"
+  ],
+  "author": "Tan Tran <oss@gamesalad.com> (http://gamesalad.com)",
+  "license": "MIT"
+}
