@@ -125,7 +125,7 @@ exports.create = function() {
             idx = i - 1;
             switch (_this.columnTypes[idx]) {
               case TYPE_BOOLEAN:
-                rowData[idx] = parsedRow[i] == "True";
+                rowData[idx] = (parsedRow[i] == "True") || (parsedRow[i] == "1");
                 break;
               case TYPE_INTEGER:
                 rowData[idx] = parseInt(parsedRow[i]);
