@@ -1,5 +1,5 @@
 {
-  "name": "gstable-js",
+  "name": "gstable",
   "version": "0.1.0",
   "description": "Utility class that makes it easier to work with GameSalad's JSON table representation used in it's network behaviors.",
   "main": "gstable.js",
